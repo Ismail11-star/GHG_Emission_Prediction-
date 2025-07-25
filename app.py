@@ -51,7 +51,7 @@ scaler = joblib.load('models/scaler.pkl')
 with st.sidebar:
     st.title("📊 GHG Emission Predictor")
     st.markdown("Use this app to predict **Supply Chain Emission Factors with Margins** based on input metrics.")
-    st.markdown("Made with ❤️ by Ismail Hossen")
+    st.markdown("Made by ❤️ Ismail Hossen")
     st.markdown("---")
     st.info("📁 Models loaded successfully!")
 
