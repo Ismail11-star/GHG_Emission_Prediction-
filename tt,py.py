@@ -113,8 +113,6 @@ with tab1:
             substance = st.selectbox("🌫️ Substance", ['carbon dioxide', 'methane', 'nitrous oxide', 'other GHGs'])
             unit = st.selectbox("📐 Unit", ['kg/2018 USD, purchaser price', 'kg CO2e/2018 USD, purchaser price'])
             source = st.selectbox("🏭 Source", ['Commodity', 'Industry'])
-        
-
 
         with col2:
             supply_wo_margin = st.number_input("🚛 Supply Chain Emission Factors *without Margins*", min_value=0.0, format="%.4f")
